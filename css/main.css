@@ -78,8 +78,11 @@ div.name > span{
 	}
 .resume.greyed{
 	border-color:#CFCFCF ;
-	background-image: url("../images/resume_greyed.png");
+	background-image: url("../images/resume_disabled.png");
 	}
+.resume:hover{
+	background-image: url("../images/resume_greyed.png");
+}
 .badges div.greyed > span{
 	color:#CFCFCF;
 	}
@@ -90,11 +93,16 @@ div.name > span{
 	background-size: 100px;
 	background-repeat: no-repeat;
 	}
-	
+.github:hover{
+	background-image: url("../images/github_greyed.png");
+}
 .twitter{
 	background-image: url("../images/twitter.png");
 	background-position: center;
 	background-size: 100px;
 	background-repeat: no-repeat;
 	}
+.twitter:hover{
+	background-image: url("../images/twitter_greyed.png");
+}
 .clr{font-size: 0; line-height: 0; height: 0; clear: both;}
