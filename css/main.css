@@ -86,7 +86,7 @@ div.name > span{
 .badges div.greyed > span{
 	color:#CFCFCF;
 	}
-	
+
 .github{
 	background-image: url("../images/github.png");
 	background-position: center;
@@ -95,6 +95,16 @@ div.name > span{
 	}
 .github:hover{
 	background-image: url("../images/github_greyed.png");
+}
+.linkedIn{
+	background-image: url("../images/linkedin.png");
+	background-position: center;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position-y: 20px;
+	}
+.linkedIn:hover{
+	background-image: url("../images/linkedin_greyed.png");
 }
 .twitter{
 	background-image: url("../images/twitter.png");
