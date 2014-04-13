@@ -1,6 +1,0 @@
-[submodule "2048"]
-	path = 2048
-	url = https://github.com/klmz/2048.git
-[submodule "vimCheatSheet"]
-	path = vimCheatSheet
-	url = git@github.com:klmz/vimCheatSheet.git
